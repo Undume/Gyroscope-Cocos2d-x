@@ -16,7 +16,7 @@ void Gyroscope::startGyroscope()
     }
 }
 
-cocos2d::Vec2 Gyroscope::getData()
+cocos2d::Vec2 Gyroscope::getRate()
 {
     jfloat valuex;
     jfloat valuey;

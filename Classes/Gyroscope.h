@@ -9,7 +9,7 @@ class CC_DLL Gyroscope
 {
 public:
     static void startGyroscope();
-    static cocos2d::Vec2 getData();
+    static cocos2d::Vec3 getRate();
     static void stopGyroscope();
 };
 

@@ -13,16 +13,16 @@ void Gyroscope::startGyroscope()
     [motionManager startDeviceMotionUpdates];
 }
 
-cocos2d::Vec2 Gyroscope::getData()
+cocos2d::Vec3 Gyroscope::getRate()
 {    
     CMDeviceMotion *deviceMotion = motionManager.deviceMotion;
     
     if(deviceMotion == nil)
-        return cocos2d::Vec2(0, 0);
+        return cocos2d::Vec3(0, 0, 0);
     
     // Get device rotation
     CMRotationRate rotationRate = deviceMotion.rotationRate;
-    return cocos2d::Vec2(rotationRate.y, rotationRate.x);
+    return cocos2d::Vec3(rotationRate.x, rotationRate.y, rotationRate.z);
 }
 
 void Gyroscope::stopGyroscope()
