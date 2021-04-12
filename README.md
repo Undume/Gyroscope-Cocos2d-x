@@ -13,7 +13,7 @@ Added in classes folder:
 
 
 
-And Added in the src folder from the android studio porject:
+And added in the src folder from the android studio porject:
 
 -gyroscope.java.
 
