@@ -3,5 +3,11 @@ Gyroscope functionality for IOS and Android using Cocos2d-x framework. Includes 
 
 Crossplatform implementation of gyroscope.
 
-Added Gyroscope.h, Gyroscope-IOS.mm, Gyroscope-Android.cpp in classes folder and in the src folder of the android studio project, gyroscope.java.
+Added in classes folder:
+-Gyroscope.h
+-Gyroscope-IOS.mm
+-Gyroscope-Android.cpp  
+
+And Added in the src folder from the android studio porject:
+-gyroscope.java.
 
